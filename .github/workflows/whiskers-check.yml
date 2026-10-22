@@ -1,0 +1,19 @@
+name: whiskers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run:
+    uses: catppuccin/actions/.github/workflows/whiskers-check.yml@v1
+    with:
+      args: |
+        templates/android.tera
+        templates/desktop.tera
+        templates/ios.tera
+        templates/macos.tera
+    secrets: inherit

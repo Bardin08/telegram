@@ -59,15 +59,25 @@
 
 ## Usage
 
+### 📱 iOS (Crema)
+
+* [🌻 Latte Crema](https://t.me/addtheme/ctp_latte_crema)
+* [🪴 Frappé Crema](https://t.me/addtheme/ctp_frappe_crema)
+* [🌺 Macchiato Crema](https://t.me/addtheme/ctp_macchiato_crema)
+* [🌿 Mocha Crema](https://t.me/addtheme/ctp_mocha_crema)
+
+Or send `src/<flavor>/catppuccin-<flavor>-crema.tgios-theme` to Saved Messages, tap it and apply. If the old chat pattern stays, reset the chat background to the theme default.
+
+### 🖥 Android and desktop
+
 * [🌻 Latte](https://t.me/addtheme/ctp_latte)
 * [🪴 Frappé](https://t.me/addtheme/ctp_frappe)
 * [🌺 Macchiato](https://t.me/addtheme/ctp_macchiato)
 * [🌿 Mocha](https://t.me/addtheme/ctp_mocha)
 
-1. Chose your flavour from the list above
-2. Open the link with your Telegram client of choice
-4. Apply the theme
-5. Enjoy! 
+1. Choose your flavour from the list above
+2. Open the link with your Telegram client
+3. Apply the theme
 
 ## 🐱 Development (for the desktop version)
 

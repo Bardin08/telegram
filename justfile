@@ -6,3 +6,6 @@ build:
   whiskers templates/desktop.tera
   whiskers templates/ios.tera
   whiskers templates/macos.tera
+
+check:
+  whiskers templates/ios.tera --check

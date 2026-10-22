@@ -1,133 +1,148 @@
 //metadata
-
 name = Catppuccin Latte
 shortname = ctp_latte
 isDark = 0
-tinted = 1
+tinted = 0
+//Fallback for parameters which didn't define. Available values: day, dayClassic, dark, nightAccent
+parent = day
+copyright = Catppuccin
 
 //Variables
-
-parent = light
-copyright = Catppuccin
-basicAccent = #1e66f5
+basicAccent = #40a02b
 background = #eff1f5
 text = #4c4f69
-grayText = #5c5f77
-link = #209fb5
-accent = #1e66f5
+grayText = #6c6f85
+link = #1e66f5
+accent = #40a02b
 redUI = #d20f39
 greenUI = #40a02b
-blackTransparent = #dce0e8
-grayTransparent = #ccd0da99
-grayUI = #eff1f5
+blackTransparent = #dce0e8:0.6
+grayTransparent = #ccd0da:0.6
+grayUI = #e6e9ef
 darkGrayText = #6c6f85
-accentSelect = #04a5e5
-selectText = #04a5e5
-border = #ccd0da
-grayBackground = #bcc0cc
-grayForeground = #bcc0cc
-grayIcon = #40a02b
-accentIcon = #e64553
+accentSelect = #40a02b
+selectText = #40a02b:0.35
+border = #dce0e8
+grayBackground = #ccd0da
+grayForeground = #ccd0da
+grayIcon = #7c7f93
+accentIcon = #40a02b
 badgeMuted = #8c8fa1
-badge = #e64553
-monospacedCodeBubble_outgoing = #4c4f69
+badge = #40a02b
 indicatorColor = #4c4f69
-selectMessage = #eff1f5
-monospacedPre = #1e66f5
-monospacedCode = #1e66f5
-monospacedPreBubble_incoming = #4c4f69
+selectMessage = #ccd0da:0.5
+premium = #8839ef
+vibrant = #9ca0b0:0.1
+
+//Code
+monospacedPre = #fe640b
+monospacedCode = #fe640b
+monospacedPreBubble_incoming = #fe640b
 monospacedPreBubble_outgoing = #4c4f69
-monospacedCodeBubble_incoming = #4c4f69
-selectTextBubble_incoming = #40a02b
-selectTextBubble_outgoing = #04a5e5
+monospacedCodeBubble_incoming = #fe640b
+monospacedCodeBubble_outgoing = #4c4f69
+
+//Bubbles
 bubbleBackground_incoming = #ccd0da
-bubbleBackgroundTop_outgoing = #eff1f5
-bubbleBackgroundBottom_outgoing = #eff1f5
+bubbleBackgroundTop_outgoing = #bad8b8
+bubbleBackgroundBottom_outgoing = #bad8b8
 bubbleBorder_incoming = #ccd0da
-bubbleBorder_outgoing = #eff1f5
-grayTextBubble_incoming = #5c5f77
-grayTextBubble_outgoing = #4c4f69
-grayIconBubble_incoming = #5c5f77
-grayIconBubble_outgoing = #5c5f77
-accentIconBubble_incoming = #5c5f77
-accentIconBubble_outgoing = #4c4f69cc
-linkBubble_incoming = #209fb5
-//sapphirelinkBubble_outgoing = #209fb5
-//sapphire #4c4f69_incoming = #4c4f69 #4c4f69_outgoing = #4c4f69
-selectMessageBubble = #bcc0cc
-fileActivityBackground = #1e66f5cc
-fileActivityForeground = #4c4f69
-fileActivityBackgroundBubble_incoming = #5c5f77
-fileActivityBackgroundBubble_outgoing = #4c4f69
-fileActivityForegroundBubble_incoming = #bcc0cc
-fileActivityForegroundBubble_outgoing = #04a5e5
-waveformBackground = #5c5f77b3
-waveformForeground = #1e66f5cc
-waveformBackgroundBubble_incoming = #5c5f77
-waveformBackgroundBubble_outgoing = #5c5f77
-waveformForegroundBubble_incoming = #4c4f69
-waveformForegroundBubble_outgoing = #4c4f69
-webPreviewActivity = #209fb5
-//sapphirewebPreviewActivityBubble_incoming = #4c4f69
-webPreviewActivityBubble_outgoing = #4c4f69
+bubbleBorder_outgoing = #bad8b8
+bubbleBackgroundHighlight_incoming = #bcc0cc
+bubbleBackgroundHighlight_outgoing = #a0cc9a
+textBubble_incoming = #4c4f69
+textBubble_outgoing = #4c4f69
+selectTextBubble_incoming = #40a02b:0.35
+selectTextBubble_outgoing = #4c4f69:0.25
+grayTextBubble_incoming = #6c6f85
+grayTextBubble_outgoing = #4c4f69:0.65
+grayIconBubble_incoming = #6c6f85
+grayIconBubble_outgoing = #4c4f69:0.65
+accentIconBubble_incoming = #40a02b
+accentIconBubble_outgoing = #4c4f69
+linkBubble_incoming = #1e66f5
+linkBubble_outgoing = #4c4f69
 redBubble_incoming = #d20f39
-redBubble_outgoing = #d20f39
+redBubble_outgoing = #4c4f69
 greenBubble_incoming = #40a02b
-greenBubble_outgoing = #40a02b
-chatReplyTitle = #209fb5
-//sapphirechatReplyTextEnabled = #4c4f69
-c#8c8fa1yTextDisabled = #5c5f77
-chatReplyTitleBubble_incoming = #4c4f69
+greenBubble_outgoing = #4c4f69
+selectMessageBubble = #bcc0cc:0.5
+
+//Files, voice, previews
+fileActivityBackground = #40a02b
+fileActivityForeground = #eff1f5
+fileActivityBackgroundBubble_incoming = #40a02b
+fileActivityBackgroundBubble_outgoing = #4c4f69
+fileActivityForegroundBubble_incoming = #eff1f5
+fileActivityForegroundBubble_outgoing = #bad8b8
+waveformBackground = #8c8fa1
+waveformForeground = #40a02b
+waveformBackgroundBubble_incoming = #8c8fa1
+waveformBackgroundBubble_outgoing = #4c4f69:0.4
+waveformForegroundBubble_incoming = #40a02b
+waveformForegroundBubble_outgoing = #4c4f69
+webPreviewActivity = #1e66f5
+webPreviewActivityBubble_incoming = #1e66f5
+webPreviewActivityBubble_outgoing = #4c4f69
+
+//Replies
+chatReplyTitle = #1e66f5
+chatReplyTextEnabled = #4c4f69
+chatReplyTextDisabled = #6c6f85
+chatReplyTitleBubble_incoming = #1e66f5
 chatReplyTitleBubble_outgoing = #4c4f69
 chatReplyTextEnabledBubble_incoming = #4c4f69
 chatReplyTextEnabledBubble_outgoing = #4c4f69
-c#8c8fa1yTextDisabledBuboming = #5c5f77
-c#8c8fa1yTextDisabledBubgoing = #5c5f77
+chatReplyTextDisabledBubble_incoming = #6c6f85
+chatReplyTextDisabledBubble_outgoing = #4c4f69:0.65
+
+//Peer names and avatars
 groupPeerNameRed = #d20f39
 groupPeerNameOrange = #fe640b
 groupPeerNameViolet = #8839ef
-groupPeerNameGreen = #179299
+groupPeerNameGreen = #40a02b
 groupPeerNameCyan = #179299
-groupPeerNameLightBlue = #209fb5
-//sapphiregroupPeerNameBlue = #1e66f5
-peerAvatarRedTop = #fe640b
+groupPeerNameLightBlue = #04a5e5
+groupPeerNameBlue = #1e66f5
+peerAvatarRedTop = #d20f39
 peerAvatarRedBottom = #e64553
 peerAvatarOrangeTop = #df8e1d
 peerAvatarOrangeBottom = #fe640b
 peerAvatarVioletTop = #7287fd
-peerAvatarVioletBottom = #7287fd
+peerAvatarVioletBottom = #8839ef
 peerAvatarGreenTop = #40a02b
-peerAvatarGreenBottom = #40a02b
-peerAvatarCyanTop = #179299
+peerAvatarGreenBottom = #179299
+peerAvatarCyanTop = #04a5e5
 peerAvatarCyanBottom = #179299
-peerAvatarBlueTop = #04a5e5
-peerAvatarBlueBottom = #209fb5
-//sapphirepeerAvatarPinkTop = #179299
-peerAvatarPinkBottom = #8839ef
-bubbleBackgroundHighlight_incoming = #bcc0cc
-bubbleBackgroundHighlight_outgoing = #04a5e5
-chatDateActive = #ccd0da
-c#8c8fa1Text = #5c5f77
+peerAvatarBlueTop = #209fb5
+peerAvatarBlueBottom = #1e66f5
+peerAvatarPinkTop = #ea76cb
+peerAvatarPinkBottom = #dd7878
+
+//Swipe actions
 revealAction_neutral1_background = #1e66f5
-revealAction_neutral1_foreground = #4c4f69
-revealAction_neutral2_background = #dd7878
-revealAction_neutral2_foreground = #4c4f69
+revealAction_neutral1_foreground = #eff1f5
+revealAction_neutral2_background = #fe640b
+revealAction_neutral2_foreground = #eff1f5
 revealAction_destructive_background = #d20f39
-revealAction_destructive_foreground = #4c4f69
+revealAction_destructive_foreground = #eff1f5
 revealAction_constructive_background = #40a02b
-revealAction_constructive_foreground = #4c4f69
-revealAction_accent_background = #1e66f5
-revealAction_accent_foreground = #4c4f69
-revealAction_warning_background = #dd7878
-revealAction_warning_foreground = #4c4f69
+revealAction_constructive_foreground = #eff1f5
+revealAction_accent_background = #40a02b
+revealAction_accent_foreground = #eff1f5
+revealAction_warning_background = #fe640b
+revealAction_warning_foreground = #eff1f5
 revealAction_inactive_background = #bcc0cc
 revealAction_inactive_foreground = #4c4f69
-//Parameter is usually using for minimalistic chat mode, but also works as fallback for bubbles if wallpaper not installed
-chatBackground = #ccd0da
-listBackground = #ccd0da
-l#8c8fa1Text = #5c5f77
+
+//Misc
+chatDateActive = #ccd0da
+chatDateText = #4c4f69
+listBackground = #e6e9ef
+listGrayText = #6c6f85
 grayHighlight = #ccd0da
-focusAnimationColor = #209fb5
-//sapphirepremium = #8839ef
-//Parameter only affects bubble chat mode. Available values=none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
-wallpaper = t.me/bg/dKs_8KaE6EjOAAAAJdGVJxSR5uU
+focusAnimationColor = #40a02b
+//Parameter is usually using for minimalistic chat mode, but also works as fallback for bubbles if wallpaper not installed
+chatBackground = #eff1f5
+//Parameter only affects bubble chat mode. Available values: none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
+wallpaper = #eff1f5

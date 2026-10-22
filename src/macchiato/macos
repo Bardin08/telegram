@@ -1,133 +1,148 @@
 //metadata
-
 name = Catppuccin Macchiato
 shortname = ctp_macchiato
 isDark = 1
 tinted = 1
-
-//Variables
-
+//Fallback for parameters which didn't define. Available values: day, dayClassic, dark, nightAccent
 parent = dark
 copyright = Catppuccin
-basicAccent = #8aadf4
+
+//Variables
+basicAccent = #a6da95
 background = #24273a
 text = #cad3f5
-grayText = #b8c0e0
-link = #7dc4e4
-accent = #8aadf4
+grayText = #a5adcb
+link = #a6da95
+accent = #a6da95
 redUI = #ed8796
 greenUI = #a6da95
-blackTransparent = #181926
-grayTransparent = #363a4f99
-grayUI = #24273a
+blackTransparent = #181926:0.6
+grayTransparent = #363a4f:0.6
+grayUI = #1e2030
 darkGrayText = #a5adcb
-accentSelect = #91d7e3
-selectText = #91d7e3
-border = #363a4f
-grayBackground = #494d64
-grayForeground = #494d64
-grayIcon = #a6da95
-accentIcon = #ee99a0
+accentSelect = #494d64
+selectText = #a6da95:0.35
+border = #181926
+grayBackground = #363a4f
+grayForeground = #363a4f
+grayIcon = #939ab7
+accentIcon = #a6da95
 badgeMuted = #8087a2
-badge = #ee99a0
-monospacedCodeBubble_outgoing = #cad3f5
+badge = #a6da95
 indicatorColor = #cad3f5
-selectMessage = #24273a
-monospacedPre = #8aadf4
-monospacedCode = #8aadf4
-monospacedPreBubble_incoming = #cad3f5
-monospacedPreBubble_outgoing = #cad3f5
-monospacedCodeBubble_incoming = #cad3f5
-selectTextBubble_incoming = #a6da95
-selectTextBubble_outgoing = #91d7e3
+selectMessage = #363a4f:0.5
+premium = #c6a0f6
+vibrant = #6e738d:0.1
+
+//Code
+monospacedPre = #f5a97f
+monospacedCode = #f5a97f
+monospacedPreBubble_incoming = #f5a97f
+monospacedPreBubble_outgoing = #181926
+monospacedCodeBubble_incoming = #f5a97f
+monospacedCodeBubble_outgoing = #181926
+
+//Bubbles
 bubbleBackground_incoming = #363a4f
-bubbleBackgroundTop_outgoing = #24273a
-bubbleBackgroundBottom_outgoing = #24273a
+bubbleBackgroundTop_outgoing = #a6da95
+bubbleBackgroundBottom_outgoing = #a6da95
 bubbleBorder_incoming = #363a4f
-bubbleBorder_outgoing = #24273a
-grayTextBubble_incoming = #b8c0e0
-grayTextBubble_outgoing = #cad3f5
-grayIconBubble_incoming = #b8c0e0
-grayIconBubble_outgoing = #b8c0e0
-accentIconBubble_incoming = #b8c0e0
-accentIconBubble_outgoing = #cad3f5cc
-linkBubble_incoming = #7dc4e4
-//sapphirelinkBubble_outgoing = #7dc4e4
-//sapphire #cad3f5_incoming = #cad3f5 #cad3f5_outgoing = #cad3f5
-selectMessageBubble = #494d64
-fileActivityBackground = #8aadf4cc
-fileActivityForeground = #cad3f5
-fileActivityBackgroundBubble_incoming = #b8c0e0
-fileActivityBackgroundBubble_outgoing = #cad3f5
-fileActivityForegroundBubble_incoming = #494d64
-fileActivityForegroundBubble_outgoing = #91d7e3
-waveformBackground = #b8c0e0b3
-waveformForeground = #8aadf4cc
-waveformBackgroundBubble_incoming = #b8c0e0
-waveformBackgroundBubble_outgoing = #b8c0e0
-waveformForegroundBubble_incoming = #cad3f5
-waveformForegroundBubble_outgoing = #cad3f5
-webPreviewActivity = #7dc4e4
-//sapphirewebPreviewActivityBubble_incoming = #cad3f5
-webPreviewActivityBubble_outgoing = #cad3f5
+bubbleBorder_outgoing = #a6da95
+bubbleBackgroundHighlight_incoming = #494d64
+bubbleBackgroundHighlight_outgoing = #8bd5ca
+textBubble_incoming = #cad3f5
+textBubble_outgoing = #181926
+selectTextBubble_incoming = #a6da95:0.35
+selectTextBubble_outgoing = #181926:0.25
+grayTextBubble_incoming = #a5adcb
+grayTextBubble_outgoing = #181926:0.65
+grayIconBubble_incoming = #a5adcb
+grayIconBubble_outgoing = #181926:0.65
+accentIconBubble_incoming = #a6da95
+accentIconBubble_outgoing = #181926
+linkBubble_incoming = #a6da95
+linkBubble_outgoing = #181926
 redBubble_incoming = #ed8796
-redBubble_outgoing = #ed8796
+redBubble_outgoing = #181926
 greenBubble_incoming = #a6da95
-greenBubble_outgoing = #a6da95
-chatReplyTitle = #7dc4e4
-//sapphirechatReplyTextEnabled = #cad3f5
-c#8087a2yTextDisabled = #b8c0e0
-chatReplyTitleBubble_incoming = #cad3f5
-chatReplyTitleBubble_outgoing = #cad3f5
+greenBubble_outgoing = #181926
+selectMessageBubble = #494d64:0.5
+
+//Files, voice, previews
+fileActivityBackground = #a6da95
+fileActivityForeground = #181926
+fileActivityBackgroundBubble_incoming = #a6da95
+fileActivityBackgroundBubble_outgoing = #181926
+fileActivityForegroundBubble_incoming = #181926
+fileActivityForegroundBubble_outgoing = #a6da95
+waveformBackground = #8087a2
+waveformForeground = #a6da95
+waveformBackgroundBubble_incoming = #8087a2
+waveformBackgroundBubble_outgoing = #181926:0.4
+waveformForegroundBubble_incoming = #a6da95
+waveformForegroundBubble_outgoing = #181926
+webPreviewActivity = #a6da95
+webPreviewActivityBubble_incoming = #a6da95
+webPreviewActivityBubble_outgoing = #181926
+
+//Replies
+chatReplyTitle = #a6da95
+chatReplyTextEnabled = #cad3f5
+chatReplyTextDisabled = #a5adcb
+chatReplyTitleBubble_incoming = #a6da95
+chatReplyTitleBubble_outgoing = #181926
 chatReplyTextEnabledBubble_incoming = #cad3f5
-chatReplyTextEnabledBubble_outgoing = #cad3f5
-c#8087a2yTextDisabledBuboming = #b8c0e0
-c#8087a2yTextDisabledBubgoing = #b8c0e0
+chatReplyTextEnabledBubble_outgoing = #181926
+chatReplyTextDisabledBubble_incoming = #a5adcb
+chatReplyTextDisabledBubble_outgoing = #181926:0.65
+
+//Peer names and avatars
 groupPeerNameRed = #ed8796
 groupPeerNameOrange = #f5a97f
 groupPeerNameViolet = #c6a0f6
-groupPeerNameGreen = #8bd5ca
+groupPeerNameGreen = #a6da95
 groupPeerNameCyan = #8bd5ca
-groupPeerNameLightBlue = #7dc4e4
-//sapphiregroupPeerNameBlue = #8aadf4
-peerAvatarRedTop = #f5a97f
+groupPeerNameLightBlue = #91d7e3
+groupPeerNameBlue = #8aadf4
+peerAvatarRedTop = #ed8796
 peerAvatarRedBottom = #ee99a0
 peerAvatarOrangeTop = #eed49f
 peerAvatarOrangeBottom = #f5a97f
 peerAvatarVioletTop = #b7bdf8
-peerAvatarVioletBottom = #b7bdf8
+peerAvatarVioletBottom = #c6a0f6
 peerAvatarGreenTop = #a6da95
-peerAvatarGreenBottom = #a6da95
-peerAvatarCyanTop = #8bd5ca
+peerAvatarGreenBottom = #8bd5ca
+peerAvatarCyanTop = #91d7e3
 peerAvatarCyanBottom = #8bd5ca
-peerAvatarBlueTop = #91d7e3
-peerAvatarBlueBottom = #7dc4e4
-//sapphirepeerAvatarPinkTop = #8bd5ca
-peerAvatarPinkBottom = #c6a0f6
-bubbleBackgroundHighlight_incoming = #494d64
-bubbleBackgroundHighlight_outgoing = #91d7e3
-chatDateActive = #363a4f
-c#8087a2Text = #b8c0e0
+peerAvatarBlueTop = #7dc4e4
+peerAvatarBlueBottom = #8aadf4
+peerAvatarPinkTop = #f5bde6
+peerAvatarPinkBottom = #f0c6c6
+
+//Swipe actions
 revealAction_neutral1_background = #8aadf4
-revealAction_neutral1_foreground = #cad3f5
-revealAction_neutral2_background = #f0c6c6
-revealAction_neutral2_foreground = #cad3f5
+revealAction_neutral1_foreground = #181926
+revealAction_neutral2_background = #f5a97f
+revealAction_neutral2_foreground = #181926
 revealAction_destructive_background = #ed8796
-revealAction_destructive_foreground = #cad3f5
+revealAction_destructive_foreground = #181926
 revealAction_constructive_background = #a6da95
-revealAction_constructive_foreground = #cad3f5
-revealAction_accent_background = #8aadf4
-revealAction_accent_foreground = #cad3f5
-revealAction_warning_background = #f0c6c6
-revealAction_warning_foreground = #cad3f5
+revealAction_constructive_foreground = #181926
+revealAction_accent_background = #a6da95
+revealAction_accent_foreground = #181926
+revealAction_warning_background = #f5a97f
+revealAction_warning_foreground = #181926
 revealAction_inactive_background = #494d64
 revealAction_inactive_foreground = #cad3f5
-//Parameter is usually using for minimalistic chat mode, but also works as fallback for bubbles if wallpaper not installed
-chatBackground = #363a4f
-listBackground = #363a4f
-l#8087a2Text = #b8c0e0
+
+//Misc
+chatDateActive = #363a4f
+chatDateText = #cad3f5
+listBackground = #1e2030
+listGrayText = #a5adcb
 grayHighlight = #363a4f
-focusAnimationColor = #7dc4e4
-//sapphirepremium = #c6a0f6
-//Parameter only affects bubble chat mode. Available values=none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
-wallpaper = t.me/bg/dKs_8KaE6EjOAAAAJdGVJxSR5uU
+focusAnimationColor = #a6da95
+//Parameter is usually using for minimalistic chat mode, but also works as fallback for bubbles if wallpaper not installed
+chatBackground = #24273a
+//Parameter only affects bubble chat mode. Available values: none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
+wallpaper = #24273a

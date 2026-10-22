@@ -8,4 +8,7 @@ build:
   whiskers templates/macos.tera
 
 check:
+  whiskers templates/android.tera --check
+  whiskers templates/desktop.tera --check
   whiskers templates/ios.tera --check
+  whiskers templates/macos.tera --check

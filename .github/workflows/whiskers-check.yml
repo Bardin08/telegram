@@ -17,3 +17,9 @@ jobs:
         templates/ios.tera
         templates/macos.tera
     secrets: inherit
+
+  formats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: python3 tools/check_formats.py

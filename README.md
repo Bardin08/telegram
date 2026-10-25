@@ -59,33 +59,21 @@
 
 ## Usage
 
-### 📱 iOS (Crema)
-
 * [🌻 Latte Crema](https://t.me/addtheme/ctp_latte_crema)
 * [🪴 Frappé Crema](https://t.me/addtheme/ctp_frappe_crema)
 * [🌺 Macchiato Crema](https://t.me/addtheme/ctp_macchiato_crema)
 * [🌿 Mocha Crema](https://t.me/addtheme/ctp_mocha_crema)
 
-Or send `src/<flavor>/catppuccin-<flavor>-crema.tgios-theme` to Saved Messages, tap it and apply. If the old chat pattern stays, reset the chat background to the theme default.
+Open the link in Telegram for iOS, Android or desktop and apply the theme. Each link carries a separate file per app.
 
-### 🍎 macOS (Crema)
+To import a file instead, take it from `src/<flavor>/`:
 
-For the native Telegram app from the App Store. Finder cannot open `.palette` files, so import them from the hidden developer menu:
-
-1. Open Settings and click the Settings tab icon five times quickly
-2. Choose Import Palette
-3. Pick `src/<flavor>/catppuccin-<flavor>-crema.palette`
-
-### 🖥 Android and desktop
-
-* [🌻 Latte](https://t.me/addtheme/ctp_latte)
-* [🪴 Frappé](https://t.me/addtheme/ctp_frappe)
-* [🌺 Macchiato](https://t.me/addtheme/ctp_macchiato)
-* [🌿 Mocha](https://t.me/addtheme/ctp_mocha)
-
-1. Choose your flavour from the list above
-2. Open the link with your Telegram client
-3. Apply the theme
+| App | File | How |
+|---|---|---|
+| iOS | `catppuccin-<flavor>-crema.tgios-theme` | Send it to Saved Messages, tap it and apply. If the old chat pattern stays, reset the chat background to the theme default. |
+| Android | `catppuccin-<flavor>-crema.attheme` | Send it to Saved Messages, tap it and apply. |
+| Desktop | `catppuccin-<flavor>-crema.tdesktop-palette` | Settings → Chat Settings → right-click a theme → Edit → Import existing theme. |
+| macOS (App Store) | `catppuccin-<flavor>-crema.palette` | Finder cannot open it. Open Settings, click the Settings tab icon five times quickly, choose Import Palette and pick the file. |
 
 ## 🐱 Development (for the desktop version)
 

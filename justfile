@@ -12,3 +12,4 @@ check:
   whiskers templates/desktop.tera --check
   whiskers templates/ios.tera --check
   whiskers templates/macos.tera --check
+  python3 tools/check_formats.py

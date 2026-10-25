@@ -68,6 +68,14 @@
 
 Or send `src/<flavor>/catppuccin-<flavor>-crema.tgios-theme` to Saved Messages, tap it and apply. If the old chat pattern stays, reset the chat background to the theme default.
 
+### 🍎 macOS (Crema)
+
+For the native Telegram app from the App Store. Finder cannot open `.palette` files, so import them from the hidden developer menu:
+
+1. Open Settings and click the Settings tab icon five times quickly
+2. Choose Import Palette
+3. Pick `src/<flavor>/catppuccin-<flavor>-crema.palette`
+
 ### 🖥 Android and desktop
 
 * [🌻 Latte](https://t.me/addtheme/ctp_latte)
